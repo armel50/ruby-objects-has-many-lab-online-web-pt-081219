@@ -17,7 +17,6 @@ class Artist
   
   def songs
     @songs 
-  @@all_song = @songs
   end 
   
   def add_song_by_name(song_name) 
